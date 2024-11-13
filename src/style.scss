@@ -5,15 +5,17 @@
 }
 
 body{
-    background-color: #9edef3;
+    background-color: #91a398;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: linear-gradient();
+    
 }
 
 h1{
-    color: #184390;
+    color: #070001;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -33,6 +35,11 @@ button{
     cursor: pointer;
     margin: 2px;
     border-radius: 10px;
+    transition: ease-in 0.3s;
+
+    &:hover{
+        background-color: #e9e0d1;
+    }
 }
 
 div{
